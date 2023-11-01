@@ -1,0 +1,60 @@
+.Halfs {
+
+    text-align: center;
+    padding: 400px 0;
+    width: 50%;
+}
+
+.Thirds {
+
+    text-align: center;
+    padding: 400px 0;
+    width: 33.33%;
+}
+
+.Fourths {
+
+    width: 25%;
+    text-align: center;
+    padding: 400px 0;
+}
+
+.Fifths {
+    width: 20%;
+    text-align: center;
+    padding: 400px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fa0909;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #f3e6e6;
+  }
+  
+  .active {
+    background-color: #e20c0c;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
